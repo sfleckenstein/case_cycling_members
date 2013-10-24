@@ -1,0 +1,17 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  name: MyString
+  distance: 1
+  elevation: 1
+  url: MyString
+  description: MyText
+  verified: false
+
+two:
+  name: MyString
+  distance: 1
+  elevation: 1
+  url: MyString
+  description: MyText
+  verified: false

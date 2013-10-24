@@ -1,0 +1,25 @@
+<h1>Listing sponsorship_offers</h1>
+
+<table>
+  <tr>
+    <th>Name</th>
+    <th>Description</th>
+    <th></th>
+    <th></th>
+    <th></th>
+  </tr>
+
+<% @sponsorship_offers.each do |sponsorship_offer| %>
+  <tr>
+    <td><%= sponsorship_offer.name %></td>
+    <td><%= sponsorship_offer.description %></td>
+    <td><%= link_to 'Show', sponsorship_offer %></td>
+    <td><%= link_to 'Edit', edit_sponsorship_offer_path(sponsorship_offer) %></td>
+    <td><%= link_to 'Destroy', sponsorship_offer, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New Sponsorship offer', new_sponsorship_offer_path %>

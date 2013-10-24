@@ -1,0 +1,25 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Title:</b>
+  <%= @medium.title %>
+</p>
+
+<p>
+  <b>Url:</b>
+  <%= @medium.url %>
+</p>
+
+<p>
+  <b>Is photo:</b>
+  <%= @medium.is_photo %>
+</p>
+
+<p>
+  <b>Is video:</b>
+  <%= @medium.is_video %>
+</p>
+
+
+<%= link_to 'Edit', edit_medium_path(@medium) %> |
+<%= link_to 'Back', media_path %>

@@ -1,0 +1,35 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Name:</b>
+  <%= @route.name %>
+</p>
+
+<p>
+  <b>Distance:</b>
+  <%= @route.distance %>
+</p>
+
+<p>
+  <b>Elevation:</b>
+  <%= @route.elevation %>
+</p>
+
+<p>
+  <b>Url:</b>
+  <%= @route.url %>
+</p>
+
+<p>
+  <b>Description:</b>
+  <%= @route.description %>
+</p>
+
+<p>
+  <b>Verified:</b>
+  <%= @route.verified %>
+</p>
+
+
+<%= link_to 'Edit', edit_route_path(@route) %> |
+<%= link_to 'Back', routes_path %>
