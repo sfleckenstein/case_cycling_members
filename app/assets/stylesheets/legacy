@@ -1,0 +1,378 @@
+/* #Fontface
+================================================== */
+
+    @font-face {
+        font-family: 'TitilliumMaps26L-750wt';
+
+        src: asset-url('titilliummaps26l001.eot', font);
+        src: asset-url('/assets/titilliummaps26l001.svg#titilliummaps26l001', font) format('svg'),
+             asset-url('/assets/titilliummaps26l001.eot?#iefix', font) format('embedded-opentype'),
+             asset-url('/assets/titilliummaps26l001.woff', font) format('woff'),
+             asset-url('/assets/titilliummaps26l001.ttf', font) format('truetype');
+             
+        font-weight: normal;
+        font-style: normal;
+    }
+
+    @font-face {
+        font-family: 'TitilliumMaps26L-500wt';
+        src: asset-url('titilliummaps26l002.eot', font);
+        src: asset-url('/assets/titilliummaps26l002.svg#titilliummaps26l001', font) format('svg'),
+             asset-url('/assets/titilliummaps26l002.eot?#iefix', font) format('embedded-opentype'),
+             asset-url('/assets/titilliummaps26l002.woff', font) format('woff'),
+             asset-url('/assets/titilliummaps26l002.ttf', font) format('truetype');
+            
+             
+        font-weight: normal;
+        font-style: normal;
+    }
+
+    @font-face {
+        font-family: 'TitilliumMaps26L-250wt';
+        src: asset-url('titilliummaps26l003.eot', font);
+        src: asset-url('/assets/titilliummaps26l003.svg#titilliummaps26l001', font) format('svg'),
+             asset-url('/assets/titilliummaps26l003.eot?#iefix', font) format('embedded-opentype'),
+             asset-url('/assets/titilliummaps26l003.woff', font) format('woff'),
+             asset-url('/assets/titilliummaps26l003.ttf', font) format('truetype');
+            
+             
+        font-weight: normal;
+        font-style: normal;
+    }
+
+    @font-face {
+        font-family: 'MuseoSlab-100wt';
+        src: asset-url('museo_slab_100-webfont.eot', font);
+        src: asset-url('museo_slab_100-webfont.eot?#iefix', font) format('embedded-opentype'),
+             asset-url('museo_slab_100-webfont.woff', font) format('woff'),
+             asset-url('museo_slab_100-webfont.ttf', font) format('truetype'),
+             asset-url('museo_slab_100-webfont.svg#museo_slab_100regular', font) format('svg');
+    font-weight: normal;
+    font-style: normal;
+    }
+
+   
+
+    body {
+  background-color: #fff;
+  color: #333;
+  font-family: verdana, arial, helvetica, sans-serif;
+  font-size: 13px;
+  line-height: 18px;
+}
+
+#nameBig{
+   font-family: "TitilliumMaps26L-500wt", sans-serif;
+   font-size: 24px;
+   text-transform: lowercase;
+   color: #003755;
+   small {
+     font-family: "MuseoSlab-100wt", sans-serif;
+    font-size: 18px;
+  }
+}
+
+.recCell{
+   table td{
+    width: 480px;
+  }
+}
+
+.ridesTable{
+  table td{
+    line-height: 1px;
+  }
+  li {
+line-height: 1px;
+}
+}
+
+
+
+#headerTextBig{
+   font-family: "TitilliumMaps26L-500wt", sans-serif;
+   font-size: 36px;
+   text-transform: lowercase;
+   color: #fff;
+    text-shadow: 0 1px 0 rgba(0,0,0,0.01);
+}
+
+#sponsors{
+   font-family: "TitilliumMaps26L-500wt", sans-serif;
+   font-size: 30px;
+   text-transform: lowercase;
+   color: #003755;
+    text-shadow: 0 1px 0 rgba(0,0,0,0.01);
+}
+
+#headerTextSmall{
+   font-family: "TitilliumMaps26L-250wt"; 
+   font-size: 20px;
+   text-transform: lowercase;
+   color: #fff;
+   text-shadow: 0 1px 0 rgba(0,0,0,0.01);
+}
+
+#upcoming{
+    font-family: "TitilliumMaps26L-750wt", sans-serif;
+    font-size: 18px;
+    color: #003755;
+    text-shadow: 0 1px 0 rgba(0,0,0,0.01);
+}
+
+#rideName{
+    font-family: "MuseoSlab-100wt", sans-serif;
+    font-size: 14px;
+    color: #000;
+    text-shadow: 0 1px 0 rgba(0,0,0,0.01);
+}
+
+#navigation{
+   font-family: "TitilliumMaps26L-750wt";
+   font-size: 18px;
+   text-shadow: 0 1px 0 rgba(0,0,0,0.01);
+}
+
+#postTitle{
+  font-family: "TitilliumMaps26L-750wt", sans-serif;
+  font-size: 20px;
+  text-transform: lowercase;
+  color: #003755;
+  text-shadow: 0 1px 0 rgba(0,0,0,0.01);
+  A:link {text-decoration: none; color:#003755;}
+  A:visited {text-decoration: none; color:#003755;}
+  A:active {text-decoration: none}  
+  A:hover {text-decoration: underline;}
+ 
+}
+
+#right{
+  float: right;
+}
+
+#pageTitle{
+   font-family: MuseoSlab-100wt, sans-serif;
+   font-size: 40px;
+   text-transform: lowercase;
+   color: #003755;
+   text-shadow: 0 1px 0 rgba(0,0,0,0.01);
+}
+
+#postDate{
+    font-family: TitilliumMaps26L-750wt, sans-serif;
+   font-size: 16px;
+   text-transform: lowercase;
+   color: #003755;
+   text-shadow: 0 1px 0 rgba(0,0,0,0.01);
+}
+
+#contentText{
+  font-family: MuseoSlab-100wt, sans-serif;
+   font-size: 14px;
+
+
+
+ 
+
+}
+
+.center-table
+{
+  margin: 0 auto !important;
+  float: none !important;
+}
+
+#pending{
+      color:#F28500;
+    }
+
+#approved{
+      color:#03C03C;
+    }
+
+#bioText{
+  font-family: MuseoSlab-100wt, sans-serif;
+   font-size: 16px;
+   text-shadow: 0 1px 0 rgba(0,0,0,0.01);
+ 
+
+}
+
+
+/* footer */
+
+#navBottom ul li {
+ font-family: MuseoSlab-100wt; 
+  font-size:12px;
+  display: inline;
+  list-style: none;
+  text-align: center;
+  a{color: #0a304e;
+    text-decoration: none;};
+
+}
+
+footer {
+ 
+  margin-top: 45px;
+  padding-top: 5px;
+  border-top: 1px solid #eaeaea;
+  color: #999;
+}
+
+footer a {
+   color: #626262;
+}  
+
+footer a:hover { 
+  color: #222;
+}
+
+footer small {
+  float: left;
+}
+
+footer ul {
+  float: right;
+  list-style: none;
+}
+
+footer ul li {
+  float: left;
+  margin-left: 10px;
+}
+
+
+p, ol, ul, td { 
+ 
+  line-height: 18px;
+}
+
+pre {
+  background-color: #eee;
+  padding: 10px;
+  font-size: 11px;
+}
+
+
+div {
+  &.field, &.actions {
+    margin-bottom: 10px;
+  }
+}
+
+#notice {
+  color: green;
+}
+
+.field_with_errors {
+  padding: 2px;
+  background-color: red;
+  display: table;
+}
+
+#error_explanation {
+  width: 450px;
+  border: 2px solid red;
+  padding: 7px;
+  padding-bottom: 0;
+  margin-bottom: 20px;
+  background-color: #f0f0f0;
+  h2 {
+    text-align: left;
+    font-weight: bold;
+    padding: 5px 5px 5px 15px;
+    font-size: 12px;
+    margin: -7px;
+    margin-bottom: 0px;
+    background-color: #c00;
+    color: #fff;
+  }
+  ul li {
+   
+    font-size: 12px;
+    list-style: square;
+  }
+}
+
+
+html, body, div, ul {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+    color: #262626;
+  background: #f4f4f4;
+  font: normal 12px/18px Verdana, sans-serif;
+}
+
+#content {
+  width: 400px;
+  margin: 40px auto 0 auto;
+  padding: 0 60px 30px 60px;
+  border: solid 1px #cbcbcb;
+  background: #fafafa;
+  -moz-box-shadow: 0px 0px 10px #cbcbcb;
+  -webkit-box-shadow: 0px 0px 10px #cbcbcb;
+}
+
+.dropdown{
+  display: table;
+  table-layout: fixed;
+}
+
+.top_item a{
+  color: #626262;
+  text-decoration: none;
+}
+
+.top_item{
+  display: table-cell; 
+  text-align: center;
+  padding: 0 20px 20px 0;
+}
+
+
+h1 {
+  margin: 30px 0 15px 0;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+h1 span {
+  font-size: 50%;
+  letter-spacing: -0.05em;
+}
+
+hr {
+  border: none;
+  height: 1px; line-height: 1px;
+  background: #E5E5E5;
+  margin-bottom: 20px;
+  padding: 0;
+}
+
+p {
+  margin: 0;
+  padding: 7px 0;
+}
+
+a {
+  outline: none;
+}
+
+a img {
+  
+  padding: 2px;
+  margin: 10px 20px 10px 0;
+  vertical-align: top;
+}
+
+a img.last {
+  margin-right: 0;  
+}
+
+ul {
+  padding-left: 30px;
+}
