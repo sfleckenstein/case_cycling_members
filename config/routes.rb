@@ -1,4 +1,12 @@
 CaseCyclingMembers::Application.routes.draw do
+  get "log_in" => "sessions#new", :as => "log_in"
+  get "log_out" => "sessions#destroy", :as => "log_out"
+  get "sign_up" => "members#new", :as => "sign_up"
+  root :to => "members#new"
+  resources :members
+  resources :sessions
+
+
   resources :clothing_items
 
 
@@ -47,8 +55,7 @@ CaseCyclingMembers::Application.routes.draw do
   resources :positions
 
 
-  resources :members
-
+ 
 
   # The priority is based upon order of creation:
   # first created -> highest priority.
