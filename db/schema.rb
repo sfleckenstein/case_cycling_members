@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20131025155641) do
+ActiveRecord::Schema.define(:version => 20131025163945) do
 
   create_table "blogs", :force => true do |t|
     t.string   "title"
@@ -90,6 +90,7 @@ ActiveRecord::Schema.define(:version => 20131025155641) do
     t.string   "email"
     t.string   "password_hash"
     t.string   "password_salt"
+    t.boolean  "verified"
   end
 
   create_table "messages", :force => true do |t|

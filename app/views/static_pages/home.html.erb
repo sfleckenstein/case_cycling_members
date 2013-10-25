@@ -1,0 +1,18 @@
+<% if !current_user %>
+<center>
+<h1>Welcome to the Case Cycling Members Portal</h1>
+<p>In order to proceed further, you must sign up or log in</p>
+
+<%= link_to "Log In", log_in_path %> <br /><br />
+<%= link_to "Sign Up", sign_up_path %>
+</center>
+
+<% end %>
+
+<% if current_user && !current_user.verified %>
+	You have created an account, but must be verified by an officer
+<% end %>
+
+<% if current_user && current_user.verified %>
+	Page Content
+<% end %>

@@ -27,8 +27,11 @@
     <%= f.label :password_confirmation %><br />
     <%= f.password_field :password_confirmation %>
   </div>
-
+    <div class="field">
+    <%= f.label :verified %><br />
+    <%= f.check_box :verified %>
   </div>
+
   <div class="actions">
     <%= f.submit %>
   </div>
