@@ -9,10 +9,11 @@
 
 <% end %>
 
-<% if current_user && !current_user.verified %>
+<% if current_user && !current_user.is_verified %>
 	You have created an account, but must be verified by an officer
 <% end %>
 
-<% if current_user && current_user.verified %>
+<% if current_user && current_user.is_verified %>
 	Page Content
 <% end %>
+

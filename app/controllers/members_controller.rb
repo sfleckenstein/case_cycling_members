@@ -57,9 +57,10 @@ class MembersController < ApplicationController
   # PUT /members/1.json
   def update
     @member = Member.find(params[:id])
-
+    @member.update_attributes(params[:member])
+    @member.save(:validate => false)
     respond_to do |format|
-      if @member.update_attributes(params[:member])
+      if @member.save(:validate => false)
         format.html { redirect_to @member, notice: 'Member was successfully updated.' }
         format.json { head :no_content }
       else

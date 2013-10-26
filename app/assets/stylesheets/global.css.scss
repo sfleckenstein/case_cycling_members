@@ -1,0 +1,54 @@
+.navbar ul{
+	display: table;
+	margin: 0 auto;
+	width: 60%;
+	list-style: none;
+}
+
+.top_item{
+	display: table-cell; 
+	text-align: center;
+	padding: 0 20px 20px 0;
+}
+
+
+
+.navbar a{
+	font-family: 'Titillium Web', sans-serif;
+	font-size: 18px;
+	text-decoration: none;
+	color: #777;
+}
+
+.navbar a:hover{
+	color: white;
+}
+
+.navbar{
+	background-color: black;
+	padding: 20px 0 20px 0;
+	border-bottom: 7px solid #428CE7;
+}
+
+#header_logo{
+	display: block;
+	margin: 10px auto 20px auto;
+}
+
+.dropdown ul { 
+	padding: 0;
+	width: 100px;
+	background-color: white;
+	visibility: hidden; 
+	position: absolute;
+	box-shadow: 1px 1px 5px #888888;
+}
+
+.dropdown ul>li>a{
+		padding: 0 25px 0 25px;
+}
+
+.dropdown ul>li:hover{
+	background-color: #428CE7;
+	
+}

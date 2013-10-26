@@ -6,7 +6,9 @@
     <th>Standing</th>
     <th>Picture url</th>
     <th>Is officer</th>
+        <th>Is Verified</th>
     <th>Is admin</th>
+
     <th></th>
     <th></th>
     <th></th>
@@ -18,6 +20,7 @@
     <td><%= member.standing %></td>
     <td><%= member.picture_url %></td>
     <td><%= member.is_officer %></td>
+    <td><%= member.is_verified %></td>
     <td><%= member.is_admin %></td>
     <td><%= link_to 'Show', member %></td>
     <td><%= link_to 'Edit', edit_member_path(member) %></td>
