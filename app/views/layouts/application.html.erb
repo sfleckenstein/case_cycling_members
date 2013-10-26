@@ -28,8 +28,18 @@
 	<%= content_tag :div, msg, :id => "flash_#{name}" %>
 <% end %>
 -->
+
+
+<div class="user_info">
+	<% if current_user %>
+		Logged in as <%= current_user.name %> - <%= link_to "Log Out", log_out_path %>
+	<% end %>
+</div>
+
+<br />
 <div class="navbar">
 	<img id="header_logo" src="/assets/header_logo.png" alt="Case Cycling Team">
+	<% if current_user && current_user.is_verified %>
 	<ul class="nav_items dropdown">
 			<li class="top_item"><a href="/">home</a></li>
 			<li class="top_item"><a href="#">equipment</a></li>
@@ -52,7 +62,7 @@
 
 			<% end %>
 		</ul>
-		
+	<% end %>
 </div>
 
 <div class="container_12">
