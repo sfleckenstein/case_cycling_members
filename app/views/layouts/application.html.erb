@@ -42,20 +42,20 @@
 	<% if current_user && current_user.is_verified %>
 	<ul class="nav_items dropdown">
 			<li class="top_item"><a href="/">home</a></li>
-			<li class="top_item"><a href="#">equipment</a></li>
-			<li class="top_item"><a href="#">sponsorship</a></li>
-			<li class="top_item"><a href="#">documents</a></li>
-			<li class="top_item"><a href="#">workouts</a></li>
+			<li class="top_item"><a href="/equipment">equipment</a></li>
+			<li class="top_item"><a href="/sponsorship_offers">sponsorship</a></li>
+			<li class="top_item"><a href="/documents">documents</a></li>
+			<li class="top_item"><a href="/workouts">workouts</a></li>
 			<% if current_user && current_user.is_admin %>
 			<li><a href="#">administration</a>
 				<ul class="sub_menu">
-        			<li class="dropdown_item"><a href="#">Members</a></li>
-        			<li class="dropdown_item"><a href="#">Blogs</a></li>
-        			<li class="dropdown_item"><a href="#">Events</a></li>
-        			<li class="dropdown_item"><a href="#">Rides</a></li>
-        			<li class="dropdown_item"><a href="#">Routes</a></li>
-        			<li class="dropdown_item"><a href="#">Clothing</a></li>
-        			<li class="dropdown_item"><a href="#">Media</a></li>
+        			<li class="dropdown_item"><a href="/members">Members</a></li>
+        			<li class="dropdown_item"><a href="/blogs">Blogs</a></li>
+        			<li class="dropdown_item"><a href="/events">Events</a></li>
+        			<li class="dropdown_item"><a href="/rides">Rides</a></li>
+        			<li class="dropdown_item"><a href="/routes">Routes</a></li>
+        			<li class="dropdown_item"><a href="/clothing_items">Clothing</a></li>
+        			<li class="dropdown_item"><a href="/media">Media</a></li>
         		</ul>
 
 			</li>
